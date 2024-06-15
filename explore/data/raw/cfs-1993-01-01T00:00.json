@@ -1,0 +1,53 @@
+{
+    "name": "ns1:timeSeriesResponseType",
+    "declaredType": "org.cuahsi.waterml.TimeSeriesResponseType",
+    "scope": "javax.xml.bind.JAXBElement$GlobalScope",
+    "value": {
+        "queryInfo": {
+            "queryURL": "http://nwis.waterservices.usgs.gov/nwis/iv/sites=06043500&startDT=1993-01-01T00%3A00&endDT=1993-12-31T23%3A00&parameterCd=00060&format=json",
+            "criteria": {
+                "locationParam": "[ALL:06043500]",
+                "variableParam": "[00060]",
+                "timeParam": {
+                    "beginDateTime": "1993-01-01T00:00:00.000",
+                    "endDateTime": "1993-12-31T23:00:00.000"
+                },
+                "parameter": []
+            },
+            "note": [
+                {
+                    "value": "[ALL:06043500]",
+                    "title": "filter:sites"
+                },
+                {
+                    "value": "[mode=RANGE, modifiedSince=null] interval={INTERVAL[1993-01-01T00:00:00.000Z/1993-12-31T23:00:00.000Z]}",
+                    "title": "filter:timeRange"
+                },
+                {
+                    "value": "methodIds=[ALL]",
+                    "title": "filter:methodId"
+                },
+                {
+                    "value": "2024-06-15T20:53:47.106Z",
+                    "title": "requestDT"
+                },
+                {
+                    "value": "5c386c20-2b59-11ef-9a93-4cd98f86fad9",
+                    "title": "requestId"
+                },
+                {
+                    "value": "Provisional data are subject to revision. Go to http://waterdata.usgs.gov/nwis/help/?provisional for more information.",
+                    "title": "disclaimer"
+                },
+                {
+                    "value": "nadww02",
+                    "title": "server"
+                }
+            ]
+        },
+        "timeSeries": []
+    },
+    "nil": false,
+    "globalScope": true,
+    "typeSubstituted": false
+}
