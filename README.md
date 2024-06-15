@@ -13,7 +13,7 @@ https://wcc.sc.egov.usda.gov/awdbRestApi/swagger-ui/index.html
 Water data (station number 06043500):
 - USGS Site
 https://nwis.waterdata.usgs.gov/nwis
--USGS Dashboard for Gallatin Gateway
+- USGS Dashboard for Gallatin Gateway
 https://dashboard.waterdata.usgs.gov/api/gwis/2.1.1/service/site?agencyCode=USGS&siteNumber=06043500&open=82374
 - USGS Dashboard for Big Sky (site 06043120)
 https://dashboard.waterdata.usgs.gov/api/gwis/2.1.1/service/site?agencyCode=USGS&siteNumber=06043120&open=247869
