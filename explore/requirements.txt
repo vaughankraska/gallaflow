@@ -1,0 +1,9 @@
+jupyterlab
+pandas
+numpy
+scikit-learn
+prophet
+xgboost
+seaborn
+plotly
+requests
