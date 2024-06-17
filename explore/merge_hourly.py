@@ -30,24 +30,21 @@ def load_cfs(directory, start_date='1990-01-01', end_date='2024-06-15'):
                             ).dt.tz_localize(None)
                     cfs.set_index('date', inplace=True)
 
-                    # df = pd.merge_asof(df, cfs,
-                    #                    left_index=True,
-                    #                    right_index=True,
-                    #                    )
                     df = df.combine_first(cfs)
 
     df['CFS'] = df['CFS'].ffill()
     return df
 
 
-def load_json_files(directory, start_date='1990-01-01', end_date='2024-06-15'):
-    # TODO!!! Finish this function and merge with CFS
-    date_range = pd.date_range(start=start_date, end=end_date)
+def load_sntl(directory, start_date='1990-01-01', end_date='2024-06-15'):
+    date_range = pd.date_range(start=start_date,
+                               end=end_date,
+                               freq='h'
+                               )
     df = pd.DataFrame(date_range, columns=['date'])
-    df['date'] = df['date'].astype(str)
     df.set_index('date', inplace=True)
 
-    daily_pattern = re.compile(r'sntl-\d{4}-\d{2}-\d{2}\.json')
+    daily_pattern = re.compile(r'sntl-\d{4}-\d{2}-\d{2} 00:00\.json')
     for filename in os.listdir(directory):
         if daily_pattern.match(filename):
             print(f'Found {filename}')
@@ -58,13 +55,18 @@ def load_json_files(directory, start_date='1990-01-01', end_date='2024-06-15'):
                 for key in data:
                     col_name = key['stationElement']['elementCode']
                     column_df = pd.json_normalize(key['values'])
-                    column_df['date'] = column_df['date'].astype(str)
+                    column_df['date'] = pd.to_datetime(column_df['date'])
+                    # column_df['date'] = column_df['date'].astype(str)
                     column_df.set_index('date', inplace=True)
                     column_df = column_df.add_prefix(col_name+'_')
+                    column_df = column_df.ffill()
 
                     df = df.combine_first(column_df)
     return df
 
+
+sntl_hourly = load_sntl('data/raw/')
+sntl_hourly.to_csv('data/hourly_sntl.csv')
 
 fine_grained_cfs = load_cfs('data/raw/')
 fine_grained_cfs.to_csv('data/granular_cfs.csv')
@@ -74,6 +76,11 @@ hourly_cfs = fine_grained_cfs.drop(['qualifiers'], axis=1).groupby(
         pd.Grouper(level='date', freq="h")
         ).mean()
 hourly_cfs.to_csv('data/hourly_cfs.csv')
+
+merged_hourly = pd.merge(hourly_cfs, sntl_hourly,
+                         left_index=True, right_index=True,
+                         how='left')
+merged_hourly.to_csv('data/hourly.csv')
 
 daily_cfs = fine_grained_cfs.drop(['qualifiers'], axis=1).groupby(
         pd.Grouper(level='date', freq="d")

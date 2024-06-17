@@ -9,6 +9,8 @@ Snotel data (Shower Falls Location 754):
 https://nwcc-apps.sc.egov.usda.gov/site-plots/#MT
 - Rest API
 https://wcc.sc.egov.usda.gov/awdbRestApi/swagger-ui/index.html
+- User guide pdf (with variable code names) 
+https://www.nrcs.usda.gov/sites/default/files/2023-03/AWDB%20Web%20Service%20User%20Guide.pdf
 
 Water data (station number 06043500):
 - USGS Site
