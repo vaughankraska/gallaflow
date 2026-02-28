@@ -1,0 +1,1038 @@
+[
+    {
+        "stationTriplet": "754:MT:SNTL",
+        "data": [
+            {
+                "stationElement": {
+                    "elementCode": "TAVG",
+                    "ordinal": 1,
+                    "durationName": "DAILY",
+                    "dataPrecision": 1,
+                    "storedUnitCode": "degF",
+                    "originalUnitCode": "degF",
+                    "beginDate": "1987-10-01 00:00",
+                    "endDate": "2100-01-01 00:00",
+                    "derivedData": false
+                },
+                "values": [
+                    {
+                        "date": "2026-01-01",
+                        "value": 27.9,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 27.9,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-02",
+                        "value": 30.4,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 30.4,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-03",
+                        "value": 30.2,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 30.2,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-04",
+                        "value": 29.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 29.3,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-05",
+                        "value": 25.9,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 25.9,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-06",
+                        "value": 25.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 25.3,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-07",
+                        "value": 21.9,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 21.9,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-08",
+                        "value": 11.1,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.1,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-09",
+                        "value": 14.7,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 14.7,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-10",
+                        "value": 19.2,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 19.2,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-11",
+                        "value": 25.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 25.3,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-12",
+                        "value": 34.9,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 34.9,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-13",
+                        "value": 33.8,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 33.8,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-14",
+                        "value": 25.9,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 25.9,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-15",
+                        "value": 25.7,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 25.7,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-16",
+                        "value": 14.5,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 14.5,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-17",
+                        "value": 17.8,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 17.8,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-18",
+                        "value": 18.0,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 18.0,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-19",
+                        "value": 13.3,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 13.3,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-20",
+                        "value": 14.7,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 14.7,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-21",
+                        "value": 10.4,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 10.4,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-22",
+                        "value": 10.8,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 10.8,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-23",
+                        "value": -1.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": -1.3,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-24",
+                        "value": -0.4,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": -0.4,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-25",
+                        "value": 1.0,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 1.0,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-26",
+                        "value": 11.7,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.7,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-27",
+                        "value": 19.0,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 19.0,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-28",
+                        "value": 20.7,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 20.7,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-29",
+                        "value": 22.1,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 22.1,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-30",
+                        "value": 25.0,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 25.0,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-01-31",
+                        "value": 27.9,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 27.9,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-01",
+                        "value": 29.5,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 29.5,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-02",
+                        "value": 26.1,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 26.1,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-03",
+                        "value": 26.8,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 26.8,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-04",
+                        "value": 29.8,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 29.8,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-05",
+                        "value": 30.4,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 30.4,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-06",
+                        "value": 31.1,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 31.1,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-07",
+                        "value": 32.5,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 32.5,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-08",
+                        "value": 33.4,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 33.4,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-09",
+                        "value": 23.7,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 23.7,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-10",
+                        "value": 13.1,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 13.1,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-11",
+                        "value": 18.5,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 18.5,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-12",
+                        "value": 15.6,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 15.6,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-13",
+                        "value": 17.1,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 17.1,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-14",
+                        "value": 22.5,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 22.5,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-15",
+                        "value": 26.6,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 26.6,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-16",
+                        "value": 27.0,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 27.0,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-17",
+                        "value": 20.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 20.3,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-18",
+                        "value": 12.2,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 12.2,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-19",
+                        "value": 5.5,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 5.5,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-20",
+                        "value": 4.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 4.3,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-21",
+                        "value": 12.7,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 12.7,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-22",
+                        "value": 21.7,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 21.7,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-23",
+                        "value": 29.1,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 29.1,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-24",
+                        "value": 29.7,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 29.7,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-25",
+                        "value": 26.4,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 26.4,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-26",
+                        "value": 26.1,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 26.1,
+                        "origQcFlag": "V"
+                    },
+                    {
+                        "date": "2026-02-27",
+                        "value": 30.2,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 30.2,
+                        "origQcFlag": "V"
+                    }
+                ]
+            },
+            {
+                "stationElement": {
+                    "elementCode": "WTEQ",
+                    "ordinal": 1,
+                    "durationName": "DAILY",
+                    "dataPrecision": 1,
+                    "storedUnitCode": "in",
+                    "originalUnitCode": "in",
+                    "beginDate": "1965-10-01 00:00",
+                    "endDate": "2100-01-01 00:00",
+                    "derivedData": false
+                },
+                "timingCentralTendencies": {
+                    "averagePeak": {
+                        "month": 5,
+                        "day": 6,
+                        "value": 27.9
+                    },
+                    "averageOnset": {
+                        "month": 10,
+                        "day": 11
+                    },
+                    "averageMeltout": {
+                        "month": 6,
+                        "day": 25
+                    }
+                },
+                "values": [
+                    {
+                        "date": "2026-01-01",
+                        "value": 10.2,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 10.2,
+                        "origQcFlag": "V",
+                        "average": 9.9
+                    },
+                    {
+                        "date": "2026-01-02",
+                        "value": 10.5,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 10.5,
+                        "origQcFlag": "V",
+                        "average": 10.0
+                    },
+                    {
+                        "date": "2026-01-03",
+                        "value": 10.6,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 10.6,
+                        "origQcFlag": "V",
+                        "average": 10.1
+                    },
+                    {
+                        "date": "2026-01-04",
+                        "value": 10.6,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 10.6,
+                        "origQcFlag": "V",
+                        "average": 10.2
+                    },
+                    {
+                        "date": "2026-01-05",
+                        "value": 10.7,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 10.7,
+                        "origQcFlag": "V",
+                        "average": 10.3
+                    },
+                    {
+                        "date": "2026-01-06",
+                        "value": 10.8,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 10.8,
+                        "origQcFlag": "V",
+                        "average": 10.4
+                    },
+                    {
+                        "date": "2026-01-07",
+                        "value": 10.8,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 10.8,
+                        "origQcFlag": "V",
+                        "average": 10.6
+                    },
+                    {
+                        "date": "2026-01-08",
+                        "value": 11.0,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.0,
+                        "origQcFlag": "V",
+                        "average": 10.7
+                    },
+                    {
+                        "date": "2026-01-09",
+                        "value": 11.0,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.0,
+                        "origQcFlag": "V",
+                        "average": 10.8
+                    },
+                    {
+                        "date": "2026-01-10",
+                        "value": 11.0,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.0,
+                        "origQcFlag": "V",
+                        "average": 11.0
+                    },
+                    {
+                        "date": "2026-01-11",
+                        "value": 11.1,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.1,
+                        "origQcFlag": "V",
+                        "average": 11.2
+                    },
+                    {
+                        "date": "2026-01-12",
+                        "value": 11.0,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.0,
+                        "origQcFlag": "V",
+                        "average": 11.2
+                    },
+                    {
+                        "date": "2026-01-13",
+                        "value": 11.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.3,
+                        "origQcFlag": "V",
+                        "average": 11.3
+                    },
+                    {
+                        "date": "2026-01-14",
+                        "value": 11.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.3,
+                        "origQcFlag": "V",
+                        "average": 11.4
+                    },
+                    {
+                        "date": "2026-01-15",
+                        "value": 11.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.3,
+                        "origQcFlag": "V",
+                        "average": 11.5
+                    },
+                    {
+                        "date": "2026-01-16",
+                        "value": 11.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.3,
+                        "origQcFlag": "V",
+                        "average": 11.6
+                    },
+                    {
+                        "date": "2026-01-17",
+                        "value": 11.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.3,
+                        "origQcFlag": "V",
+                        "average": 11.8
+                    },
+                    {
+                        "date": "2026-01-18",
+                        "value": 11.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.3,
+                        "origQcFlag": "V",
+                        "average": 11.9
+                    },
+                    {
+                        "date": "2026-01-19",
+                        "value": 11.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.3,
+                        "origQcFlag": "V",
+                        "average": 12.0
+                    },
+                    {
+                        "date": "2026-01-20",
+                        "value": 11.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.3,
+                        "origQcFlag": "V",
+                        "average": 12.1
+                    },
+                    {
+                        "date": "2026-01-21",
+                        "value": 11.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.3,
+                        "origQcFlag": "V",
+                        "average": 12.2
+                    },
+                    {
+                        "date": "2026-01-22",
+                        "value": 11.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.3,
+                        "origQcFlag": "V",
+                        "average": 12.3
+                    },
+                    {
+                        "date": "2026-01-23",
+                        "value": 11.3,
+                        "qcFlag": "E",
+                        "qaFlag": "P",
+                        "origValue": 11.0,
+                        "origQcFlag": "V",
+                        "average": 12.4
+                    },
+                    {
+                        "date": "2026-01-24",
+                        "value": 11.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.3,
+                        "origQcFlag": "V",
+                        "average": 12.5
+                    },
+                    {
+                        "date": "2026-01-25",
+                        "value": 11.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.3,
+                        "origQcFlag": "V",
+                        "average": 12.6
+                    },
+                    {
+                        "date": "2026-01-26",
+                        "value": 11.4,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.4,
+                        "origQcFlag": "V",
+                        "average": 12.7
+                    },
+                    {
+                        "date": "2026-01-27",
+                        "value": 11.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.3,
+                        "origQcFlag": "V",
+                        "average": 12.9
+                    },
+                    {
+                        "date": "2026-01-28",
+                        "value": 11.6,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.6,
+                        "origQcFlag": "V",
+                        "average": 12.9
+                    },
+                    {
+                        "date": "2026-01-29",
+                        "value": 11.6,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.6,
+                        "origQcFlag": "V",
+                        "average": 13.0
+                    },
+                    {
+                        "date": "2026-01-30",
+                        "value": 11.7,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.7,
+                        "origQcFlag": "V",
+                        "average": 13.2
+                    },
+                    {
+                        "date": "2026-01-31",
+                        "value": 11.8,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.8,
+                        "origQcFlag": "V",
+                        "average": 13.3
+                    },
+                    {
+                        "date": "2026-02-01",
+                        "value": 11.8,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.8,
+                        "origQcFlag": "V",
+                        "average": 13.4
+                    },
+                    {
+                        "date": "2026-02-02",
+                        "value": 11.9,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.9,
+                        "origQcFlag": "V",
+                        "average": 13.5
+                    },
+                    {
+                        "date": "2026-02-03",
+                        "value": 11.9,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 11.9,
+                        "origQcFlag": "V",
+                        "average": 13.6
+                    },
+                    {
+                        "date": "2026-02-04",
+                        "value": 12.0,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 12.0,
+                        "origQcFlag": "V",
+                        "average": 13.7
+                    },
+                    {
+                        "date": "2026-02-05",
+                        "value": 12.0,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 12.0,
+                        "origQcFlag": "V",
+                        "average": 13.8
+                    },
+                    {
+                        "date": "2026-02-06",
+                        "value": 12.0,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 12.0,
+                        "origQcFlag": "V",
+                        "average": 13.9
+                    },
+                    {
+                        "date": "2026-02-07",
+                        "value": 12.0,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 12.0,
+                        "origQcFlag": "V",
+                        "average": 14.0
+                    },
+                    {
+                        "date": "2026-02-08",
+                        "value": 12.2,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 12.2,
+                        "origQcFlag": "V",
+                        "average": 14.2
+                    },
+                    {
+                        "date": "2026-02-09",
+                        "value": 13.5,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 13.5,
+                        "origQcFlag": "V",
+                        "average": 14.3
+                    },
+                    {
+                        "date": "2026-02-10",
+                        "value": 13.4,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 13.4,
+                        "origQcFlag": "V",
+                        "average": 14.4
+                    },
+                    {
+                        "date": "2026-02-11",
+                        "value": 13.5,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 13.5,
+                        "origQcFlag": "V",
+                        "average": 14.5
+                    },
+                    {
+                        "date": "2026-02-12",
+                        "value": 13.5,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 13.5,
+                        "origQcFlag": "V",
+                        "average": 14.6
+                    },
+                    {
+                        "date": "2026-02-13",
+                        "value": 13.5,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 13.5,
+                        "origQcFlag": "V",
+                        "average": 14.7
+                    },
+                    {
+                        "date": "2026-02-14",
+                        "value": 13.5,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 13.5,
+                        "origQcFlag": "V",
+                        "average": 14.9
+                    },
+                    {
+                        "date": "2026-02-15",
+                        "value": 13.9,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 13.9,
+                        "origQcFlag": "V",
+                        "average": 15.0
+                    },
+                    {
+                        "date": "2026-02-16",
+                        "value": 14.0,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 14.0,
+                        "origQcFlag": "V",
+                        "average": 15.2
+                    },
+                    {
+                        "date": "2026-02-17",
+                        "value": 14.2,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 14.2,
+                        "origQcFlag": "V",
+                        "average": 15.4
+                    },
+                    {
+                        "date": "2026-02-18",
+                        "value": 14.4,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 14.4,
+                        "origQcFlag": "V",
+                        "average": 15.5
+                    },
+                    {
+                        "date": "2026-02-19",
+                        "value": 14.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 14.3,
+                        "origQcFlag": "V",
+                        "average": 15.6
+                    },
+                    {
+                        "date": "2026-02-20",
+                        "value": 14.3,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 14.3,
+                        "origQcFlag": "V",
+                        "average": 15.7
+                    },
+                    {
+                        "date": "2026-02-21",
+                        "value": 14.4,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 14.4,
+                        "origQcFlag": "V",
+                        "average": 15.9
+                    },
+                    {
+                        "date": "2026-02-22",
+                        "value": 14.5,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 14.5,
+                        "origQcFlag": "V",
+                        "average": 16.1
+                    },
+                    {
+                        "date": "2026-02-23",
+                        "value": 14.5,
+                        "qcFlag": "V",
+                        "qaFlag": "P",
+                        "origValue": 14.5,
+                        "origQcFlag": "V",
+                        "average": 16.2
+                    },
+                    {
+                        "date": "2026-02-24",
+                        "value": 14.7,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 14.7,
+                        "origQcFlag": "V",
+                        "average": 16.3
+                    },
+                    {
+                        "date": "2026-02-25",
+                        "value": 14.8,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 14.8,
+                        "origQcFlag": "V",
+                        "average": 16.5
+                    },
+                    {
+                        "date": "2026-02-26",
+                        "value": 14.9,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 14.9,
+                        "origQcFlag": "V",
+                        "average": 16.6
+                    },
+                    {
+                        "date": "2026-02-27",
+                        "value": 14.8,
+                        "qcFlag": "V",
+                        "qaFlag": "R",
+                        "origValue": 14.8,
+                        "origQcFlag": "V",
+                        "average": 16.8
+                    }
+                ]
+            }
+        ]
+    }
+]

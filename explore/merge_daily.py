@@ -1,18 +1,24 @@
-import pandas as pd
 import json
-import re
 import os
+import re
+from typing import Any
+
+import pandas as pd
 
 
-def load_cfs(path):
-    df = pd.read_csv(path, delimiter='\t', skiprows=28)
-    df = df.drop(0)
-    df.rename(columns={
-        'datetime': 'date',
-        '80830_00060_00003': 'CFS',
-        '80830_00060_00003_cd': 'status',
-        },
-              inplace=True)
+def load_cfs(path: os.PathLike[str]):
+    with open(path, 'r') as file:
+        json_data = json.load(file)
+        records: list[dict[str, Any]] = [feature["properties"] for feature in json_data["features"]]
+    df = pd.DataFrame(records)
+    df.rename(
+            columns={
+                'time': 'date',
+                'value': 'CFS',
+                'approval_status': 'status',
+                },
+            inplace=True
+            )
     df.set_index('date', inplace=True)
 
     return df
@@ -44,15 +50,18 @@ def load_json_files(directory, start_date='1990-01-01', end_date='2024-06-15'):
     return df
 
 
-daily_sntl = load_json_files('data/raw/')
-daily_sntl.to_csv('data/daily_sntl.csv')
+if __name__ == "__main__":
+    daily_sntl = load_json_files('data/raw/')
+    daily_sntl.to_csv('data/daily_sntl.csv')
 
-daily_cfs = load_cfs('data/raw/cfs-daily.txt')
-daily_cfs.to_csv('data/daily_cfs.csv')
+    # daily_cfs = load_cfs('data/raw/cfs-daily.txt')
+    daily_cfs = load_cfs('data/raw/cfs-daily.json')
+    daily_cfs.to_csv('data/daily_cfs.csv')
 
-merged_df = pd.merge(daily_sntl, daily_cfs,
-                     how='left',
-                     left_index=True,
-                     right_index=True
-                     )
-merged_df.to_csv('data/daily.csv')
+    merged_df = pd.merge(
+            daily_sntl, daily_cfs,
+            how='left',
+            left_index=True,
+            right_index=True
+            )
+    merged_df.to_csv('data/daily_v2.csv')
